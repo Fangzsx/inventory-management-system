@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "111993669582",
+    "project_id": "inventory-management-sys-7fc2a",
+    "storage_bucket": "inventory-management-sys-7fc2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111993669582:android:4a61f26478010fd244cd9f",
+        "android_client_info": {
+          "package_name": "com.fangs.inventory_management_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111993669582-bhgo5n0r74gnlak5trd115al03csquqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fangs.inventory_management_system",
+            "certificate_hash": "6aba0d6cf22e9771078435d324a6272fdb0bcee8"
+          }
+        },
+        {
+          "client_id": "111993669582-gqlenj6372bogj02oj8ggo3tnqntuo4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_mzd6DLkB-b_QfuoD_GpVty8etsRFhp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111993669582-gqlenj6372bogj02oj8ggo3tnqntuo4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

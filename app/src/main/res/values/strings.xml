@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">inventory-management-system</string>
+    <string name="already_have_an_account_b_login_b"><![CDATA[Already have an account? <b> Login </b>]]></string>
+</resources>
