@@ -13,15 +13,40 @@
         android:layout_height="wrap_content"
         android:text="Welcome User!"
         android:textSize="20sp"
+        android:layout_marginTop="20dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_greet_user"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/add_icon_24"
+            android:contentDescription="image button for adding new item" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Add new item"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tv_available_items"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Available Items"
-        app:layout_constraintTop_toBottomOf="@id/tv_greet_user"
+        app:layout_constraintTop_toBottomOf="@id/ll_add_item"
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
